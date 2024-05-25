@@ -1,0 +1,58 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the build process
+*.out
+*.a
+
+# Go test binary, created with `go test -c`
+*.test
+
+# Coverage data file
+*.cover
+
+# Output of the `go get` command
+_gopath
+
+# Directory for dependency management tools
+/vendor/
+
+# Log files
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Dependency directories
+/Godeps/
+/vendor/
+/dep/
+/pkg/
+
+# Glide files
+/glide.lock
+/glide.yaml
+
+# Test results
+test-result-*.txt
+
+# Go workspace file
+go.work
+
+# Compiled objects
+*.o
+
+# Output of `go build`
+/bin/
+/obj/
+/dist/
+
+
+/posrgres_data
